@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+dist/
+**/dist/
+dist-ssr/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.local
+**/appsettings.Development.json
+
+# .NET Build artifacts
+bin/
+**/bin/
+obj/
+**/obj/
+
+# IDE and OS files
+.vs/
+.vscode/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
